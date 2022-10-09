@@ -10,8 +10,8 @@ import numpy as np
 
 
 #CARGAR LOS DATOS QUE NECESITAMOS
-data=pd.read_csv('/Users/mar/Proyecto final linkedin selenium/base_datos_limpia/data_limpia.csv')
-coor=pd.read_csv('/Users/mar/Proyecto final linkedin selenium/coor/coor_folium.csv')
+data=pd.read_csv('data_limpia.csv')
+coor=pd.read_csv('coor_folium.csv')
 
 #CONFIGURACIONES DE LA PÁGINA
 st.set_page_config(layout='centered', page_icon="img/logo3.png", page_title='Tu empresa ideal',menu_items={
